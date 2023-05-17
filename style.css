@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@300&family=Lato:wght@700&display=swap');
+
+:root {
+    --font-main: 'Lato', sans-serif;
+    --color-button: #00F482;
+}
+
+* {
+    font-family: var(--font-main);
+    background-color: #01001F;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 3rem 0rem 10rem 20rem;
+    padding: 0rem;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 21rem;
+    width: 30vw;
+}
+
+.image-logo {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0%;
+}
+
+
+.nav-link {
+    color: white;
+    text-decoration: none;
+    font-size: 1.3rem;
+}
+
+#singup:hover {
+    color: var(--color-button);
+    border-right: white;
+}
+
+span{
+    color:white;
+    font-weight: light;
+    margin:none;
+    padding:0;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin-bottom: 4rem;
+    margin-left: 10rem;
+}
+
+/*.backimage{
+    position: absolute;
+    display:flex;
+    justify-content: center;
+    align-items: flex-end;
+    width: 700px;
+    height: 665px;
+    border-radius: 350px;
+    background:#01001f4b;
+}*/
+
+.drum-kit-section {
+    padding: 0%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    width: 50vw;
+
+}
+
+.text-box {
+    width: 23vw;
+
+}
+
+h1 {
+    margin: 0%;
+    padding: 0%;
+    font-size: 5rem;
+    color: white;
+}
+
+h6 {
+    margin: 0%;
+    padding: 1rem 0rem 2rem 0rem;
+    font-size: 1.2rem;
+    color: rgba(143, 136, 136, 0.555);
+}
+
+.hit-the {
+    padding: 0%;
+    margin: 0%;
+    margin-top: 1rem;
+}
+
+button {
+    padding: 1rem 4rem;
+    background-color: var(--color-button);
+    border-radius: 2rem;
+    color: rgba(235, 229, 229, 0.842);
+    text-decoration: none;
+    margin: 0%;
+    font-size: 1.37rem;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 2rem;
+}
+
+h3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0%;
+    color: white;
+    font-size: 2.1rem;
+}
+
+.button-see {
+    background-color: white;
+    color: black;
+    padding: 1rem 2rem;
+    font-size: 1.25rem;
+    text-decoration: none;
+}
+
+@media (max-width: 768px) {
+    .nav-link {
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        top: 60px;
+    }
+
+    .image-logo {
+        width: 100vw;
+        margin: 4rem;
+    }
+
+
+    .container {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .drum-kit-section {
+        padding: 0%;
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        width: 80%;
+    
+    }
+
+    footer {
+        display: none;
+    }
+}
