@@ -112,9 +112,7 @@ h1 {
 }
 
 .big-pad{
-  background-color:#01001f ;
-  color:#01001f;
-  border: none;
+  display: none;
 }
 
 footer {
@@ -129,7 +127,7 @@ h3 {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 0%;
+  margin:1rem 0rem 0rem;
   color: white;
   font-size: 2.3rem;
 }
@@ -265,6 +263,8 @@ h3 {
     font-size: 1.12rem;
   }
   .big-pad {
+    display: flex;
+    justify-content: center;
     box-sizing: border-box;
     width: 288px;
     height: 288px;
