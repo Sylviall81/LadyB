@@ -16,7 +16,7 @@
             <a class="nav-link" href="#">Premium</a>
             <a class="nav-link" href="#">Help</a>
             <a class="nav-link" href="#">Download</a>
-            <a class="nav-link" id="singup" href="#">Sing up</a>
+            <a class="nav-link" id="signup" href="#">sign up</a>
             <a class="nav-link" id="log-in" href="#">Log In</a>
         </nav>
         <div class="nav-toggle" id="toggle">
@@ -41,13 +41,13 @@
                 <audio id="audio-element-left-up">
                     <source src="/sound/tom1.wav" type="audio/wav"> </audio>
 
-                <area target="_self" alt="pad-left-center" title="pad-left-center" href="#" coords="134,214,59"
+                <area id="pad" target="_self" alt="pad-left-center" title="pad-left-center" href="#" coords="134,214,59"
                     shape="circle" onclick="makeSound('audio-element-left-center')">
                 <audio id="audio-element-left-center">
                     <source src="/sound/tom3.wav" type="audio/wav">
                 </audio>
 
-                <area target="_self" alt="pad-left-down" title="pad-left-down" href="#" coords="199,364,81"
+                <area class="pad" target="_self" alt="pad-left-down" title="pad-left-down" href="#" coords="199,364,81"
                     shape="circle" onclick="makeSound('audio-element-left-down')">
                 <audio id="audio-element-left-down">
                     <source src="/sound/hit-hat.wav" type="audio/wav">

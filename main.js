@@ -1,4 +1,4 @@
-"use strict"
+
 
 
 function makeSound(id){
@@ -12,9 +12,4 @@ function makeSound(id){
     items.classList.toggle("open");
     toggle.classList.toggle("close");
   }
-  const sonidos = document.querySelector(".big-pad")
-  let mysound;
-  sonidos.addEventListener("click", () => {
-    mysound = new Audio('/sound/bombo.wav');
-    mysound.play()
-  })
+
